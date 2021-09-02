@@ -52,3 +52,15 @@ body{
     border-radius: 50%;
     z-index: 1;
 }
+
+.title{
+    font-size: 2rem;
+}
+
+.description{
+    font-size: 0.9rem;
+    padding: 2rem 0rem ;
+    color: #585858;
+    font-weight: lighter;
+}
+
