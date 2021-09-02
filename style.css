@@ -10,6 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .card-container{
@@ -26,6 +27,7 @@ body{
     border-radius: 30px;
     padding: 0rem 4rem;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    transition: all 0.75s ease-out;
 }
 
 .header{
