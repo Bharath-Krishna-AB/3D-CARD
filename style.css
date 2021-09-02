@@ -82,7 +82,7 @@ body{
 }
 
 .unique {
-    background: #585858;
-    color: white ;
+    background: #585858 !important;
+    color: white !important;
 }
 
