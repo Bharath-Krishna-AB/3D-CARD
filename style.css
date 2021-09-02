@@ -86,3 +86,23 @@ body{
     color: white !important;
 }
 
+
+.purchase {
+    margin-top: 5rem;
+}
+
+.purchase button {
+    width: 100%;
+    padding: 1rem 0rem;
+
+    background: linear-gradient(
+        rgb(216, 70, 70),
+        rgb(255, 122, 69)
+    );
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
+}
+  
