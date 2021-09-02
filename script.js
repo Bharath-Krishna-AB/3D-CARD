@@ -9,9 +9,6 @@ var description =document.querySelector('.description')
 var sizes =document.querySelector('.sizes')
 var purchase =document.querySelector('.purchase')
 
-
-
-
 container.addEventListener('mousemove', (e) =>{
     //for getting that 3d effect on mouse move
     var Xaxis = (window.innerWidth /2 - e.pageX) /20
@@ -26,8 +23,15 @@ container.addEventListener('mousemove', (e) =>{
     purchase.style.transform = 'translateZ(50px)'
 })
 
-container.addEventListener('mouseleave', (e) =>{
+// for transition when leaving container in line 33
+container.addEventListener('mouseenter', (e) => {
+    card.style.transition = 'none'
+})
 
+container.addEventListener('mouseleave', (e) => {
+    // for transition when leaving container
+    card.style.transition = 'all 0.5s ease'
+    
     //for getting 3d effect to normal when leaving container
     card.style.transform = 'rotateY(0deg) rotateX(0deg)'
 
@@ -39,4 +43,3 @@ container.addEventListener('mouseleave', (e) =>{
     purchase.style.transform = 'translateZ(0px)'
 
 })
-
